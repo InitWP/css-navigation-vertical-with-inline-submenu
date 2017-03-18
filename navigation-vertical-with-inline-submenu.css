@@ -1,0 +1,67 @@
+@media screen and (min-width: 768px) {
+
+	.mainNavigation--toggle {
+		display: none;
+	}
+
+	.mainNavigation {
+		right: 0;
+		width: auto;
+	}
+
+	.mainNavigation--menu {
+		background: none;
+		box-shadow: none;
+		display: block;
+		position: static;
+	}
+
+	.mainNavigation--menuItem {
+		border: 0;
+		text-align: right;
+	}
+
+	.mainNavigation--menuItem a {
+		color: #6f6f6e;
+		font-size: 1.2em;
+		font-weight: bold;
+		padding: 0 30px;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+	.mainNavigation--menuItem a:hover,
+	.mainNavigation--menu .is-active > a,
+	.mainNavigation--menu .is-active-ancestor > a {
+		color: turquoise;
+	}
+
+	/***************************************** Submenu Toggle button */
+
+	.mainNavigation--subMenuToggle {
+		display: none;
+	}
+
+	/***************************************** Submenu */
+
+	.mainNavigation--subMenu--menuItem {
+		border: 0;
+	}
+
+	.is-active .mainNavigation--subMenu,
+	.is-active-ancestor .mainNavigation--subMenu {
+		display: block;
+		margin-bottom: 15px;
+	}
+
+	.is-active .mainNavigation--subMenu--menuItem a,
+	.is-active-ancestor .mainNavigation--subMenu--menuItem a {
+		font-size: 0.8em;
+		text-transform: lowercase;
+	}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}

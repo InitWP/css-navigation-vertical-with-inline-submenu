@@ -1,0 +1,17 @@
+{
+	"name": "CSS: Vertical navigation with inline submenu",
+	"type": "snippet",
+	"version": "0.1.0",
+	"description": "CSS for a vertical menu with inline submenu",
+	"files": [
+		"navigation-vertical-with-inline-submenu.css"
+    ],
+	"actions": {
+		"insertAfter": {
+			"searchvalue": "* Media Queries */",
+			"files": [
+				"css/modules/navigation.css"
+			]
+		}
+	}
+}
