@@ -8,7 +8,7 @@
     ],
 	"actions": {
 		"insertAfter": {
-			"searchvalue": "* Media Queries */",
+			"searchValue": "* Media Queries */",
 			"files": [
 				"css/modules/navigation.css"
 			]
