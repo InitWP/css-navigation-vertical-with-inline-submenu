@@ -1,14 +1,14 @@
 {
 	"name": "CSS: Vertical navigation with inline submenu",
-	"type": "snippet",
+	"type": "module",
 	"version": "0.1.0",
 	"description": "CSS for a vertical menu with inline submenu",
-	"files": [
-		"navigation-vertical-with-inline-submenu.css"
-    ],
 	"actions": {
 		"insertAfter": {
 			"searchValue": "* Media Queries */",
+			"newValue": {
+				"file": "navigation-vertical-with-inline-submenu.css"
+			},
 			"files": [
 				"css/modules/navigation.css"
 			]
