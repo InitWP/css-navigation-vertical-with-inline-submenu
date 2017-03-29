@@ -3,6 +3,9 @@
 	"type": "snippet",
 	"version": "0.1.0",
 	"description": "CSS for a vertical menu with inline submenu",
+	"dependencies": {
+		"clean-navigation-css-classes": "module"
+	},
 	"files": [
 		"navigation-vertical-with-inline-submenu.css"
     ],
